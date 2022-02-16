@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ru.misskotik.TriangleTest" time="0.375" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/lally/Desktop/HW/TriangleS/target/test-classes:/Users/lally/Desktop/HW/TriangleS/target/classes:/Users/lally/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/lally/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/lally/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/lally/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/lally/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/lally/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/lally/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/lally/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/lally/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/lally/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/Users/lally/Library/Java/JavaVirtualMachines/openjdk-17.0.1/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/lally/Desktop/HW/TriangleS/target/surefire/surefirebooter13218350353045336007.jar /Users/lally/Desktop/HW/TriangleS/target/surefire 2022-02-16T15-08-25_842-jvmRun1 surefire128787428463114363tmp surefire_09020615394402931387tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/lally/Desktop/HW/TriangleS/target/test-classes:/Users/lally/Desktop/HW/TriangleS/target/classes:/Users/lally/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/lally/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/lally/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/lally/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/lally/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/lally/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/lally/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/lally/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/lally/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/lally/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/lally"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Users/lally/Library/Java/JavaVirtualMachines/openjdk-17.0.1/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/lally/Desktop/HW/TriangleS"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/lally/Desktop/HW/TriangleS/target/surefire/surefirebooter13218350353045336007.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.1+12-39"/>
+    <property name="user.name" value="lally"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.6"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/lally/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/r3/m6r6c5ks2hl9s122d6lf3zbh0000gn/T/"/>
+    <property name="idea.version" value="2021.1"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/lally/Desktop/HW/TriangleS"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/lally/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.1+12-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testTriangleExists" classname="ru.misskotik.TriangleTest" time="0.036">
+    <system-out><![CDATA[15:08:27,299 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+15:08:27,300 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+15:08:27,300 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/lally/Desktop/HW/TriangleS/target/classes/logback.xml]
+15:08:27,382 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+15:08:27,383 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+15:08:27,392 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+15:08:27,514 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+15:08:27,514 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+15:08:27,514 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+15:08:27,515 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to INFO
+15:08:27,515 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+15:08:27,516 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+15:08:27,519 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@1ff4931d - Registering current configuration as safe fallback point
+
+15:08:27.543 [main]  INFO  ru.misskotik.TriangleTest - Checking if Triangle exists
+Triangle Square 6.0
+]]></system-out>
+  </testcase>
+  <testcase name="testTriangleSquare" classname="ru.misskotik.TriangleTest" time="0.003">
+    <system-out><![CDATA[15:08:27.566 [main]  INFO  ru.misskotik.TriangleTest - Checking if Square is right
+Triangle Square 6.0
+Triangle Square 6.0
+]]></system-out>
+  </testcase>
+  <testcase name="testTriangleDoesNotExist" classname="ru.misskotik.TriangleTest" time="0.003">
+    <system-out><![CDATA[15:08:27.572 [main]  INFO  ru.misskotik.TriangleTest - Checking wrong parameters - one of the size is 0
+This is Not a Triangle
+]]></system-out>
+  </testcase>
+  <testcase name="testThisIsNotTriangle" classname="ru.misskotik.TriangleTest" time="0.002">
+    <system-out><![CDATA[15:08:27.577 [main]  INFO  ru.misskotik.TriangleTest - Wrong parameters test
+Triangle Square NaN
+]]></system-out>
+  </testcase>
+</testsuite>
